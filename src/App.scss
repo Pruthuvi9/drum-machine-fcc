@@ -1,3 +1,5 @@
+$drum-pad-color: rgb(44, 109, 249);
+
 .App {
   display: flex;
   flex-direction: column;
@@ -26,7 +28,7 @@
 button {
   height: 80px;
   width: 80px;
-  background-color: rgb(44, 109, 249);
+  background-color: $drum-pad-color;
   border: 1px solid #fff;
   border-radius: 5px;
   color: #fff;
@@ -35,7 +37,7 @@ button {
 }
 
 button:hover {
-  background-color: rgb(44, 109, 249);
+  background-color: $drum-pad-color;
   opacity: 0.8;
 }
 
@@ -44,5 +46,3 @@ button.active {
   color: rgb(113, 44, 249);
   border: 1px solid rgb(113, 44, 249);
 }
-
-/*# sourceMappingURL=App.css.map */
